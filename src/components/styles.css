@@ -1,0 +1,5 @@
+html {
+  background-image: linear-gradient(to bottom right, #3BB2E2, #4DC274 );
+  background-size: contain;
+  min-height: 100%;
+}
