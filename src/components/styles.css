@@ -3,3 +3,39 @@ html {
   background-size: contain;
   min-height: 100%;
 }
+
+.name {
+  text-align: center;
+  margin-top: 25%;
+  width: 100%;
+}
+
+.sub-header {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  img.hide {
+    display: none;
+  }
+}
+
+.stack-list {
+  /* text-align: center; */
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+ .stack {
+   /* text-align: center; */
+   list-style: none;
+   width: 14%;
+   height: 14%;
+   filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.5));
+ }
+
+ .projects {
+   margin-top: 90%;
+
+ }
