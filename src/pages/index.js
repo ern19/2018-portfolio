@@ -9,7 +9,7 @@ import reactLogo from '../images/react.png'
 import nodeLogo from '../images/nodejs.png'
 import rubyLogo from '../images/ruby-on-rails.png'
 import twitterIcon from '../images/twitter.png'
-import linkedInIcon from '../images/linkedIn.png'
+import linkedInIcon from '../images/linkedin.png'
 import githubIcon from '../images/github.png'
 
 const blurStack = () => {
