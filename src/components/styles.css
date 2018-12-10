@@ -2,14 +2,19 @@ html {
   background-image: linear-gradient(to bottom right, #3BB2E2, #4DC274 );
   background-size: contain;
   min-height: 100%;
+
 }
 
 .name {
   text-align: center;
-  margin-top: 25%;
+  margin-top: 18%;
   width: 100%;
 }
-
+@media screen and (orientation:portrait) { 
+  .name {
+    margin-top: 50%;
+  }
+}
 .sub-header {
   text-align: center;
 }
@@ -26,6 +31,7 @@ html {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-right: 5%;
 }
  .stack {
    /* text-align: center; */
@@ -34,8 +40,28 @@ html {
    height: 14%;
    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.5));
  }
+ a {
+   text-decoration: none;
+ }
+ .find-me {
+   text-align: center;
+ }
+
+.social-icons {
+  width: 7%;
+  height: 7%;
+  margin: 1%;
+  filter: drop-shadow(0 0 0.25rem rgba(0,0,0,0.2));
+}
+.social-container {
+  text-align: center;
+}
 
  .projects {
-   margin-top: 90%;
+   text-align: center;
+   margin-top: 5%;
+ }
 
+ .next {
+   float: right;
  }
